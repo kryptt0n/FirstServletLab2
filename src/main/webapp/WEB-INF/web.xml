@@ -9,4 +9,14 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SocketFormServlet</display-name>
+    <servlet-name>SocketFormServlet</servlet-name>
+    <servlet-class>SocketFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SocketFormServlet</servlet-name>
+    <url-pattern>/SocketFormServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

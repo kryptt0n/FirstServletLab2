@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Socket Machines</title>
+</head>
+<body>
+
+<form action="/FirstServletLab/SocketFormServlet" method="post">
+<label for="socket-type"></label>
+  <select name="socket" id="socket-type">
+    <option value="typeA">Type A (1$)</option>
+    <option value="typeB">Type B (3$)</option>
+    <option value="typeC">Type C (7$)</option>
+  </select>
+  <br>
+	<label>Quantity</label>
+	<input type="number" name="quantity">
+	<br>
+	<h2>Customer info</h2>
+	<br>
+	<label>Name</label>
+	<input type="text" name="name">
+	<br>
+	<label>Email</label>
+	<input type="email" name="email">
+	<br>
+	<input type="submit" value="Calculate">
+</form>
+
+</body>
+</html>
